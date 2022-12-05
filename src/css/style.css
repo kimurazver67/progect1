@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(/src/font/Gilroy-Light.woff);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(/src/font/Gilroy-Bold.woff);
+    font-style: bold;
+    font-weight: 700;
+}
+
+html {
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.navi__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 57px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 0 58px;
+    margin-top: 111px;
+}
+
+body {
+    background-color: #F7EFED;
+}
+
+.search__block {
+    position: relative;
+    margin-top: 85px;
+    margin-right: 100px;
+    width: 386px;
+    height: 74px;
+}
+
+.search {
+    font-family: 'Gilroy-Light';
+    border-radius: 37px;
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 85px;
+}
+
+.search::placeholder {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.search_icon--search {
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 17px;
+}
+
+.search_icon--bag {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 17px;
+}
+
+.container__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__textblock {
+    position: relative;
+    width: 590px;
+    margin-left: 95px;
+    margin-top: 94px;
+}
+
+.title__info {
+    display: block;
+    font-size: 80px;
+}
+
+.paper__img {
+    position: absolute;
+    right: 58px;
+    top: 0;
+}
+
+.info__subtitle {
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+
+.chips__img {
+    display: block;
+    position: absolute;
+    top: 207px;
+    left: 665px;
+    z-index: 1;
+}
+
+.chips__shadow {
+    opacity: 0.6;
+    filter: blur(50px);
+    display: block;
+    position: absolute;
+    top: 233px;
+    left: 665px;
+    z-index: 0;
+}
+
+.info__verb {
+    margin-right: 110px;
+}
+
+.list__1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.chill__img {
+    display: block;
+}
+
+
+/* .info__verb--title {
+    display: block;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+} */
