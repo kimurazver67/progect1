@@ -142,11 +142,10 @@ body {
     display: block;
 }
 
-
-/* .info__verb--title {
+.info__verb--title {
     display: block;
     margin-left: 20px;
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
-} */
+}
