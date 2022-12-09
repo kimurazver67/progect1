@@ -8,6 +8,7 @@
     <title>BalaJI Food</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,7 @@
                 </div>
 
             </div>
-            <form action="add__To__cart" class="button__form">
+            <div class="button__form" x-data="{ count: 1 }">
                 <div class="form__block">
                     <div class="button__block">
                         <button class="add__btn">
@@ -72,11 +73,14 @@
                         </button>
                     </div>
                     <div class="inc__dec--block">
-                        <button class="increment__cart btn__add--qty"><span class="add__qtty">+</span></button>
-                        <div class="rectangle__input"><input type="number" name="" id="form__qty"></div>
-                        <button class="decrement__cart btn__add--qty">-</button></div>
+                        <button class="increment__cart btn__add--qty" x-on:click="count++">+</button>
+                        <div class="rectangle__input">
+                            <span x-text="count" class="qtty"></span>
+                        </div>
+                        <button class="decrement__cart btn__add--qty" x-on:click="count--">-</button></button>
+                    </div>
                 </div>
-            </form>
+            </div>
 
         </div>
 

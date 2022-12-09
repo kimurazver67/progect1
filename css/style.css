@@ -211,12 +211,8 @@ body {
 .inc__dec--block {
     display: flex;
     max-width: 229px;
-}
-
-#form__qty {
-    width: 58px;
-    height: 58px;
-    border-radius: 50%;
+    position: relative;
+    align-items: center;
 }
 
 .form__block {
@@ -227,10 +223,14 @@ body {
 
 .rectangle__input {
     box-sizing: border-box;
-    align-items: center;
-    width: 62px;
-    height: 62px;
-    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(#F7EFED 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(90deg, rgba(255, 209, 84, 1) 0%, rgba(255, 201, 54, 1) 100%) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
     border-radius: 50%;
 }
 
@@ -242,6 +242,17 @@ body {
     margin-left: 15px;
 }
 
-.add__qtty {
-    display: block;
+.qtty {
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Gilroy-Light';
+    border-radius: 50%;
+    background-color: #fff;
+    line-height: 58px;
+    width: 58px;
+    height: 58px;
+    top: 8px;
+    left: 85px;
 }
