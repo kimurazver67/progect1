@@ -85,6 +85,20 @@ body {
     justify-content: space-between;
 }
 
+.plane__img {
+    display: block;
+    position: absolute;
+    left: 341px;
+    top: 160px;
+}
+
+.line__img {
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: -14px;
+}
+
 .info__textblock {
     position: relative;
     width: 590px;
@@ -255,4 +269,98 @@ body {
     height: 58px;
     top: 8px;
     left: 85px;
+}
+
+.peper__img {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 559px;
+}
+
+.footer__menu--all {
+    position: relative;
+}
+
+.chips1__img {
+    display: block;
+    position: relative;
+    left: -5px;
+    top: 108px;
+    z-index: 0;
+}
+
+.menu__bg {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+.menu__item {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.item {
+    display: block;
+    position: relative;
+    top: 20px;
+    z-index: 3;
+    left: 183px;
+}
+
+.item__info {
+    position: relative;
+    background-color: #fff;
+    width: 217px;
+    height: 135px;
+    z-index: 2;
+    top: 42px;
+    left: 144px;
+    border-radius: 20px;
+}
+
+.item__title {
+    margin-left: 41px;
+    margin-top: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+}
+
+.item__star--list {
+    list-style-type: none;
+    margin-left: 41px;
+    margin-top: 10px;
+}
+
+.order__button {
+    margin-left: 41px;
+    border-radius: 17.5px;
+    border: none;
+    background: rgb(255, 209, 84);
+    background: linear-gradient(90deg, rgba(255, 209, 84, 1) 0%, rgba(255, 201, 54, 1) 100%);
+    width: 118px;
+    height: 35px;
+    font-family: 'Gilroy-Light';
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+
+.price {
+    margin-left: 157px;
+    position: absolute;
+    font-size: 24px;
+}
+
+.star {
+    display: inline;
+}
+
+.item__block {
+    display: flex;
+    position: absolute;
+    top: 0;
 }
